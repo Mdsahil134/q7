@@ -25,7 +25,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: "${params.BRANCH_NAME}",
-                    url: 'https://github.com/user/my-app.git'
+                    url: 'https://github.com/Mdsahil134/q7'
             }
         }
 
